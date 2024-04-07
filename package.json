@@ -1,17 +1,17 @@
 {
-  "name": "@toantranmei/mei-nuxt3-module-starter",
+  "name": "@toantranmei/mei-nuxt3-fetcher",
   "type": "module",
   "version": "0.0.2",
   "description": "Minimal Nuxt 3 Module Starter.",
   "author": "Toan Tran <Mei>",
   "license": "MIT",
-  "homepage": "https://github.com/toantranmei/mei-nuxt3-module-starter#readme",
+  "homepage": "https://github.com/toantranmei/mei-nuxt3-fetcher#readme",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/toantranmei/mei-nuxt3-module-starter.git"
+    "url": "git+https://github.com/toantranmei/mei-nuxt3-fetcher.git"
   },
   "bugs": {
-    "url": "https://github.com/toantranmei/mei-nuxt3-module-starter/issues"
+    "url": "https://github.com/toantranmei/mei-nuxt3-fetcher/issues"
   },
   "keywords": [
     "mei",

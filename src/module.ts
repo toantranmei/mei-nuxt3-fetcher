@@ -8,7 +8,7 @@ export default defineNuxtModule<ModuleOptions>({
   meta: {
     name,
     version,
-    configKey: '<DEFINE_YOUR_PREFIX_KEY>',
+    configKey: 'meiFetcher',
   },
   // Default configuration options of the Nuxt module
   defaults: {},

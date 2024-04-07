@@ -1,7 +1,7 @@
 blank_issues_enabled: false
 contact_links:
   - name: 📖 Documentation
-    url: https://mei-nuxt3-module-starter.toantranmei.com
+    url: https://mei-nuxt3-fetcher.toantranmei.com
     about: Check the documentation for guides and examples.
   - name: 📚 Discord
     url: https://discord.gg/devup
