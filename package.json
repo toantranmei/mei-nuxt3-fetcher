@@ -53,7 +53,8 @@
   },
   "dependencies": {
     "@nuxt/kit": "^3.11.2",
-    "defu": "^6.1.4"
+    "defu": "^6.1.4",
+    "ufo": "^1.5.3"
   },
   "devDependencies": {
     "@antfu/eslint-config": "^2.12.2",
