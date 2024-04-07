@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.0.4](https://github.com/toantranmei/mei-nuxt3-fetcher/compare/v0.0.3...v0.0.4) (2024-04-07)
+
+
+### Bug Fixes
+
+* **modules:** add ufo package external for types ([55b94f1](https://github.com/toantranmei/mei-nuxt3-fetcher/commit/55b94f18c81f30e6f317a7aab17ee8ed7e6e2211))
+
 ## 0.0.3 (2024-04-07)
 
 
