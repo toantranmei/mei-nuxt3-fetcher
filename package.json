@@ -52,7 +52,8 @@
     "typecheck": "vue-tsc --noEmit"
   },
   "dependencies": {
-    "@nuxt/kit": "^3.11.2"
+    "@nuxt/kit": "^3.11.2",
+    "defu": "^6.1.4"
   },
   "devDependencies": {
     "@antfu/eslint-config": "^2.12.2",
