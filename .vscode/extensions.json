@@ -1,0 +1,24 @@
+{
+  "recommendations": [
+    "streetsidesoftware.code-spell-checker",
+    "formulahendry.auto-rename-tag",
+    "formulahendry.auto-close-tag",
+    "editorconfig.editorconfig",
+    "dbaeumer.vscode-eslint",
+    "wix.vscode-import-cost",
+    "visualstudioexptteam.vscodeintellicode",
+    "yzhang.markdown-all-in-one",
+    "vue.volar",
+    "usernamehw.errorlens",
+    "chakrounanas.turbo-console-log",
+    "jock.svg",
+    "stylelint.vscode-stylelint",
+    "yoavbls.pretty-ts-errors",
+    "christian-kohler.path-intellisense",
+    "xabikos.javascriptsnippets",
+    "visualstudioexptteam.intellicode-api-usage-examples",
+    "oderwat.indent-rainbow",
+    "eamodio.gitlens",
+    "mhutchie.git-graph"
+  ]
+}

@@ -1,0 +1,83 @@
+{
+  "name": "@toantranmei/mei-nuxt3-module-starter",
+  "type": "module",
+  "version": "0.0.2",
+  "description": "Minimal Nuxt 3 Module Starter.",
+  "author": "Toan Tran <Mei>",
+  "license": "MIT",
+  "homepage": "https://github.com/toantranmei/mei-nuxt3-module-starter#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/toantranmei/mei-nuxt3-module-starter.git"
+  },
+  "bugs": {
+    "url": "https://github.com/toantranmei/mei-nuxt3-module-starter/issues"
+  },
+  "keywords": [
+    "mei",
+    "nuxt3",
+    "mei-nuxt3-module-starter",
+    "nuxt-template",
+    "template",
+    "boilerplate"
+  ],
+  "exports": {
+    ".": {
+      "types": "./dist/types.d.ts",
+      "import": "./dist/module.mjs",
+      "require": "./dist/module.cjs"
+    }
+  },
+  "main": "./dist/module.cjs",
+  "types": "./dist/types.d.ts",
+  "files": [
+    "dist"
+  ],
+  "engines": {
+    "node": ">=v16.20.2"
+  },
+  "scripts": {
+    "prepack": "nuxt-module-build build",
+    "dev": "nuxi dev playground",
+    "dev:build": "nuxi build playground",
+    "dev:prepare": "nuxt-module-build build --stub && nuxt-module-build prepare && nuxi prepare playground",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix --max-warnings=0 --no-warn-ignored",
+    "test": "vitest run",
+    "test:watch": "vitest watch",
+    "release": "release-it",
+    "prepare": "husky",
+    "commit": "./node_modules/cz-customizable/standalone.js",
+    "prepare:commit": "lint-staged",
+    "typecheck": "vue-tsc --noEmit"
+  },
+  "dependencies": {
+    "@nuxt/kit": "^3.11.2"
+  },
+  "devDependencies": {
+    "@antfu/eslint-config": "^2.12.2",
+    "@commitlint/cli": "^19.2.1",
+    "@nuxt/devtools": "latest",
+    "@nuxt/module-builder": "^0.5.5",
+    "@nuxt/schema": "^3.11.2",
+    "@nuxt/test-utils": "^3.12.0",
+    "@release-it/conventional-changelog": "^8.0.1",
+    "@types/node": "^20.12.4",
+    "cz-customizable": "^7.0.0",
+    "eslint": "^8.57.0",
+    "husky": "^9.0.11",
+    "lint-staged": "^15.2.2",
+    "nuxt": "^3.11.2",
+    "release-it": "^17.1.1",
+    "vitest": "^1.4.0",
+    "vue-tsc": "^2.0.10"
+  },
+  "config": {
+    "cz-customizable": {
+      "config": ".husky/git/commitizen.cjs"
+    }
+  },
+  "lint-staged": {
+    "*": "npm run lint:fix"
+  }
+}
