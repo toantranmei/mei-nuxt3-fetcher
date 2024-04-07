@@ -1,5 +1,12 @@
 # Changelog
 
+## 0.0.3 (2024-04-07)
+
+
+### Features
+
+* **app:** add repository factory pattern for service ([20f06c8](https://github.com/toantranmei/mei-nuxt3-fetcher/commit/20f06c85cb7ed35206b28a7e3f04f8ccb934ddfb))
+
 ## 0.0.2 (2024-04-07)
 
 
