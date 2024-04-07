@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.0.6](https://github.com/toantranmei/mei-nuxt3-fetcher/compare/v0.0.5...v0.0.6) (2024-04-07)
+
+
+### Bug Fixes
+
+* add useRuntimeConfig from [#imports](https://github.com/toantranmei/mei-nuxt3-fetcher/issues/imports) ([b293551](https://github.com/toantranmei/mei-nuxt3-fetcher/commit/b2935510d08189886d89f18da547667af6980faa))
+
 ## [0.0.5](https://github.com/toantranmei/mei-nuxt3-fetcher/compare/v0.0.4...v0.0.5) (2024-04-07)
 
 
